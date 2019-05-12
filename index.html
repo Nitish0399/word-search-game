@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<q\63-*+9}|html>
+  <head>
+    <title>Word Search</title>
+    <link rel="stylesheet" href="index-css.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>WORD SEARCH GAME </h1>
+      </header>
+      <main>
+        <div id="words">
+          <h3>Words To Find</h3>
+          <ul>
+            <li v-for="word in words">{{word}}</li>
+          </ul>
+        </div>
+        <div id="boxOfLetters">
+          <div v-for="(letter,index) in char" class="boxes" style="background-color:tomato">
+            <div v-bind:id="identity(index)">{{letter}}</div>
+          </div>
+        </div>
+        <div class="points">
+          <h3>Points</h3>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>Developed by Nitish</p>
+    </footer>
+    <script src="index-js.js"></script>
+  </body>
+</html>
+
+<!-- v-on:click="dark($event)" -->
