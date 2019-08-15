@@ -101,12 +101,12 @@ function check(event){
         {
           for(let i=0;i<list[comp].length;i++)
           {
-            document.getElementById(list[comp][i]).parentNode.style.backgroundColor="#3cc33c";
+            document.getElementById(list[comp][i]).parentNode.style.backgroundColor="#37de37";
             document.getElementById(list[comp][i]).style.color="black";
             document.getElementById(list[comp][i]).parentNode.style.pointerEvents='none';
           }
-          document.querySelector("."+comp).style.color="#3cc33c";
-          
+          document.querySelector("."+comp).style.color="#37de37";
+
           points.correct+=1;
         }
     }

@@ -152,9 +152,10 @@ footer p{
 }
 @media only screen and (max-width:500px)
 {
-  header{
-    height:180px;
+  body{
+    width:500px;
   }
+
   h1{
     font-size: 55px;
   }
@@ -163,11 +164,5 @@ footer p{
   }
   #instruct{
     margin:20px 15px;
-  }
-}
-@media only screen and (max-width:450px)
-{
-  header{
-    height:250px;
   }
 }
