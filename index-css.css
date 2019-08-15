@@ -60,10 +60,10 @@ main{
 }
 .boxes div{
   position: absolute;
-  top: 8%;
-  left: 28%;
-  font-size: 22px;
-  font-family: cursive;
+  top: 10%;
+  left: 29%;
+  font-size: 24px;
+  font-family: 'Lexend Deca', sans-serif;
   color:white;
 }
 #points{
@@ -125,7 +125,7 @@ footer p{
     margin: 0 auto;
   }
   #points{
-    margin: 50px auto 0 auto; 
+    margin: 50px auto 0 auto;
   }
 }
 @media only screen and (min-width:1740px)
