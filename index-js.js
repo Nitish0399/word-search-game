@@ -17,7 +17,7 @@ var letters=[ 'B','X','I','R','T','A','M','Y','A','P','X','K',
               'R','N','H','O','Z','T','Z','C','P','T','O','V',
               'C','G','K','W','F','A','Q','L','A','T','D','R',
               'I','H','L','R','S','I','M','E','N','E','A','O',
-              'M','E','L','G','O','O','G','A','S','R','T','E'];
+              'M','E','L','G','O','O','G','A','S','R','T'];
 
 const letter=new Vue({
   el:"#boxOfLetters",
