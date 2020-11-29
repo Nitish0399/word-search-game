@@ -1,6 +1,6 @@
 var words=["GOOGLE","MICROSOFT","ADOBE","TWITTER","PAYMATRIX","AMAZON","SAMSUNG",
             "IBM","APPLE","SNAPCHAT","ORACLE","FACEBOOK"];
-console.log("not defined");
+
 const companies=new Vue({
   el:"#words",
   data:{
