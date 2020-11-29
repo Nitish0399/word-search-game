@@ -1,5 +1,8 @@
 var words=["GOOGLE","MICROSOFT","ADOBE","TWITTER","PAYMATRIX","AMAZON","SAMSUNG",
             "IBM","APPLE","SNAPCHAT","ORACLE","FACEBOOK"];
+if(typeof Captcha!=="undefined"){
+            Captcha.postMessage("hello");
+}
 const companies=new Vue({
   el:"#words",
   data:{
